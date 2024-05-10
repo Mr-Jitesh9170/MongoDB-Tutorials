@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Aman Chauhan",
+        "educations": "B.A",
+        "mobile": 9178906101,
+        "createdAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        },
+        "updatedAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        }
+    },
+    {
+        "name": "Sachin Singh Thapa",
+        "educations": "B.com",
+        "mobile": 9170078901,
+        "createdAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        },
+        "updatedAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        }
+    },
+    {
+        "name": "Anand pandey",
+        "educations": "BBA",
+        "mobile": 9177896101,
+        "createdAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        },
+        "updatedAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        }
+    },
+    {
+        "name": "Mohit Sir",
+        "educations": "B.tech",
+        "mobile": 9174506101,
+        "createdAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        },
+        "updatedAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        }
+    },
+    {
+        "name": "Shyam Pandey",
+        "educations": "B.com",
+        "mobile": 9170004551,
+        "createdAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        },
+        "updatedAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        }
+    },
+    {
+        "name": "Anand Pandey",
+        "educations": "12th",
+        "mobile": 9170006101,
+        "createdAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        },
+        "updatedAt": {
+            "$date": "2024-05-01T12:22:52.224Z"
+        }
+    }
+]

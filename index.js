@@ -10,7 +10,8 @@ main();
 
 
 // routes =>
-app.use(require("./timeStamp/timestamp.js"))
+app.use(require("./routes/aggregationRoutes.js"))
+app.use(require("./routes/timestampRoutes.js"))
 
 // server listning on =>
 app.listen(8080, () => {

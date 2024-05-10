@@ -5,5 +5,4 @@ router.post("/indexes", async () => {
 
 })
 
-
 module.exports = router;

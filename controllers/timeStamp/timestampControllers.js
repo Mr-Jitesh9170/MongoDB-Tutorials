@@ -1,7 +1,4 @@
-const { Router } = require("express")
-const router = Router();
-const userModel = require("../models/user.js")
-
+const userModel = require("../../models/user.js");
 /*  
     #TimeStamps => timestaps is the combination of the ( createdAt and updatedAt ) date during the data is inserted inside to database.
         
@@ -11,7 +8,7 @@ const userModel = require("../models/user.js")
 */
 
 // inserting and creating time stamps =>
-router.post("/timestamp", async (req, res) => {
+exports.creatingTimeStamps = async (req, res) => {
     try {
         let { name, educations, mobile } = req.body;
         let respUser = await userModel.create({ name, educations, mobile });
@@ -31,9 +28,10 @@ router.post("/timestamp", async (req, res) => {
             }
         )
     }
-})
+}
 
-router.put("/timestamp", async (req, res) => {
+// updating time stamps =>
+exports.updatingTimeStamps = async (req, res) => {
     try {
         let { _id, name, educations } = req.body;
         let respUser = await userModel.findByIdAndUpdate(_id, { name, educations }, { new: true });
@@ -53,7 +51,6 @@ router.put("/timestamp", async (req, res) => {
             }
         )
     }
-})
+}
 
-
-module.exports = router;
+ 
